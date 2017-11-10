@@ -18,3 +18,13 @@ function johnLennonFacts(facts) {
   }
   return array;
 }
+
+function iLoveTheBeatles(num) {
+  var result = [];
+
+  var i = 0; 
+  do {
+    i++;
+    result += i + "I love the Beatles!"
+  } while (i < 15);
+}
